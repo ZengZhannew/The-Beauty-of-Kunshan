@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地标建筑 - 昆山市</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">昆山之美</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="landmarks.html">地标建筑</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="food.html">特色美食</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">留言</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            用户
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">登录</a></li>
+                            <li><a class="dropdown-item" href="register.html">注册</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-primary text-white text-center py-5 mb-5">
+        <div class="container">
+            <h1 class="fw-bold">昆山地标建筑</h1>
+            <p class="lead">探索昆山的历史文化与现代建筑</p>
+        </div>
+    </header>
+
+    <!-- Landmarks Section -->
+    <section class="container my-5">
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3 text-center">
+                <h2 class="mb-3">历史地标</h2>
+                <p class="lead">昆山拥有丰富的历史文化遗产，这些地标见证了昆山悠久的历史和文化底蕴。</p>
+            </div>
+        </div>
+
+        <!-- Landmarks Grid -->
+        <div class="row g-4">
+            <!-- Landmark 1: 周庄古镇 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card landmark-card shadow-sm h-100">
+                    <img src="images/zhouzhuang.jpg" class="card-img-top landmark-img" alt="周庄古镇">
+                    <div class="card-body">
+                        <h5 class="card-title">周庄古镇</h5>
+                        <p class="card-text">周庄被誉为"中国第一水乡"，有"中国威尼斯"之称，是江南六大古镇之一。镇内河道纵横，36座古石桥横跨其上，粉墙黛瓦的临河民居，组成了一幅美丽的江南水乡画卷。</p>
+                        <p class="card-text text-muted">著名景点：沈厅、张厅、双桥、富安桥等</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#zhouzhuangModal">了解更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landmark 2: 亭林园 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card landmark-card shadow-sm h-100">
+                    <img src="images/tinglin.jpg" class="card-img-top landmark-img" alt="亭林园">
+                    <div class="card-body">
+                        <h5 class="card-title">亭林园</h5>
+                        <p class="card-text">亭林园是明代著名思想家顾炎武的故居，始建于明代，历经明清两代修建完善。园内有听雨轩、嘉荫堂、学圃精舍等古建筑，环境幽雅，是昆山的重要文化遗产。</p>
+                        <p class="card-text text-muted">著名景点：顾炎武纪念馆、嘉荫堂、夕佳楼</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#tinglinModal">了解更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landmark 3: 阳澄湖 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card landmark-card shadow-sm h-100">
+                    <img src="images/yangcheng.jpg" class="card-img-top landmark-img" alt="阳澄湖">
+                    <div class="card-body">
+                        <h5 class="card-title">阳澄湖</h5>
+                        <p class="card-text">阳澄湖是中国著名的淡水湖泊之一，以盛产大闸蟹而闻名。湖水清澈，环境优美，是昆山市的重要自然景观和旅游胜地。湖区面积约120平方公里，湖边的"蟹岛"是休闲度假的好去处。</p>
+                        <p class="card-text text-muted">著名景点：蟹岛、湖心岛、阳澄湖大闸蟹博物馆</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#yangchengModal">了解更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landmark 4: 锦溪古镇 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card landmark-card shadow-sm h-100">
+                    <img src="images/jinxi.jpg" class="card-img-top landmark-img" alt="锦溪古镇">
+                    <div class="card-body">
+                        <h5 class="card-title">锦溪古镇</h5>
+                        <p class="card-text">锦溪古镇有"中国民间博物馆之乡"的美誉，历史可追溯到春秋时期。镇内水道交错，古桥众多，保存了大量明清建筑，是体验江南水乡风情的理想之地。</p>
+                        <p class="card-text text-muted">著名景点：曾巩祠、醉白池、漪园、凤凰桥</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#jinxiModal">了解更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landmark 5: 昆山城隍庙 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card landmark-card shadow-sm h-100">
+                    <img src="images/chenghuang.jpg" class="card-img-top landmark-img" alt="昆山城隍庙">
+                    <div class="card-body">
+                        <h5 class="card-title">昆山城隍庙</h5>
+                        <p class="card-text">昆山城隍庙始建于北宋，是昆山历史最悠久的建筑之一。庙宇规模宏大，建筑风格典雅，是昆山民间信仰和传统文化的重要载体。如今已成为集宗教、商业、旅游为一体的文化场所。</p>
+                        <p class="card-text text-muted">著名景点：城隍殿、文昌阁、财神殿</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#chenghuangModal">了解更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landmark 6: 昆山森林公园 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card landmark-card shadow-sm h-100">
+                    <img src="images/forest-park.jpg" class="card-img-top landmark-img" alt="昆山森林公园">
+                    <div class="card-body">
+                        <h5 class="card-title">昆山森林公园</h5>
+                        <p class="card-text">昆山森林公园是昆山市区内最大的综合性生态公园，占地面积广阔，植被丰富，环境优美。公园内有湖泊、山丘、花海等多种景观，是市民休闲娱乐的好去处。</p>
+                        <p class="card-text text-muted">著名景点：翠湖、樱花林、动物园区、休闲广场</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#forestModal">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Landmarks Section -->
+    <section class="bg-light py-5 my-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2 class="mb-3">现代地标</h2>
+                    <p class="lead">昆山的现代化建设给这座城市带来了许多令人惊叹的现代建筑和地标。</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Modern Landmark 1 -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/culture-center.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="昆山文化艺术中心">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">昆山文化艺术中心</h5>
+                                    <p class="card-text">昆山文化艺术中心是昆山市重要的文化地标，集文化展览、艺术表演、会议展览等功能于一体。其现代化的建筑设计与传统元素的融合，使其成为昆山现代建筑的代表作。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Landmark 2 -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/science-park.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="昆山科技园">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">昆山科技园</h5>
+                                    <p class="card-text">昆山科技园是昆山高新技术产业的集中区域，汇集了众多国内外高科技企业。园区内现代化的建筑群和完善的基础设施，展现了昆山作为经济强市的现代风貌。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Landmarks -->
+    <!-- Modal for 周庄古镇 -->
+    <div class="modal fade" id="zhouzhuangModal" tabindex="-1" aria-labelledby="zhouzhuangModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="zhouzhuangModalLabel">周庄古镇详情</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/zhouzhuang-large.jpg" class="img-fluid rounded mb-3" alt="周庄古镇">
+                    <p>周庄古镇位于昆山市东北部，距离昆山市区约18公里，是中国最具代表性的水乡古镇之一。它有900多年的历史，镇内保存着许多明清时期的建筑，如沈厅、张厅等。</p>
+                    <p>周庄因水而闻名，镇内有九条街，五条古巷，四条环镇水道和14座石桥，形成了"小桥、流水、人家"的典型江南水乡风貌。其中最著名的是"双桥"，由一座石拱桥和一座石梁桥并排而立，是周庄的标志性景观，曾出现在中国人民币的背景图案中。</p>
+                    <p>周庄还是著名画家陈逸飞的家乡，他的作品《故乡的回忆》使周庄声名远播。如今，周庄已成为国家5A级旅游景区，每年吸引着大量国内外游客前来观光。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>关于昆山之美</h5>
+                    <p>本网站致力于展示江苏省昆山市的美丽风景、历史文化和特色美食，让更多人了解和爱上这座城市。</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>快速链接</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">首页</a></li>
+                        <li><a href="landmarks.html" class="text-white">地标建筑</a></li>
+                        <li><a href="food.html" class="text-white">特色美食</a></li>
+                        <li><a href="feedback.html" class="text-white">留言</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>联系我们</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope me-2"></i> contact@kunshan-beauty.com</li>
+                        <li><i class="fas fa-phone me-2"></i> (0512) 5xxxx-xxxx</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 昆山市，江苏省</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 昆山之美. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

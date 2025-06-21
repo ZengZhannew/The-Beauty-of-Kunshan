@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>昆山市 - 我的美丽家乡</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">昆山之美</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landmarks.html">地标建筑</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="food.html">特色美食</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">留言</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            用户
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">登录</a></li>
+                            <li><a class="dropdown-item" href="register.html">注册</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content text-center text-white">
+            <h1 class="display-4 fw-bold">欢迎来到美丽的昆山</h1>
+            <p class="lead">江苏省的明珠，历史与现代交融的城市</p>
+        </div>
+    </header>
+
+    <!-- Carousel Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">昆山美景</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                    <img src="images/kunshan-1.jpg" class="d-block w-100" alt="周庄古镇">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>周庄古镇</h5>
+                        <p>江南水乡的典范，有"中国第一水乡"的美誉</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/kunshan-2.jpg" class="d-block w-100" alt="阳澄湖">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>阳澄湖</h5>
+                        <p>大闸蟹的故乡，风景如画的湖泊</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/kunshan-3.jpg" class="d-block w-100" alt="昆山城市景观">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>现代昆山</h5>
+                        <p>现代化都市与传统文化的完美结合</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="mb-3">昆山简介</h2>
+                <p>昆山，位于江苏省苏州市，是中国东部沿海重要的城市之一。昆山地处长江三角洲腹地，东临上海，南接苏州，北靠太湖，地理位置十分优越。</p>
+                <p>昆山历史悠久，文化底蕴深厚，早在春秋时期就有记载。昆山因"昆"字源于昆吾山而得名，素有"小上海"之称。作为江南水乡的代表，昆山拥有周庄、锦溪、千灯、巴城等多个古镇，展现了江南水乡的独特魅力。</p>
+                <p>改革开放后，昆山抓住机遇，经济快速发展，如今已成为中国最具活力的城市之一，连续多年位列中国百强县市前列。</p>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-3">城市风貌</h2>
+                <p>昆山是一座既有深厚历史文化底蕴，又充满现代都市活力的城市。这里有被誉为"中国第一水乡"的周庄古镇，有远近闻名的阳澄湖大闸蟹，有引人入胜的亭林园，还有蓬勃发展的昆山经济技术开发区。</p>
+                <p>漫步昆山，你可以在古镇小巷中感受江南水乡的恬静与优雅，可以在现代化商业区体验都市的繁华与便利，可以在风景如画的公园里欣赏自然的美丽与和谐。</p>
+                <p>昆山人热情好客，城市管理有序，环境优美，是一座宜居、宜业、宜游的现代化城市。无论是旅游观光，还是投资创业，昆山都是一个理想的选择。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="bg-light py-5 my-5">
+        <div class="container">
+            <h2 class="text-center mb-4">昆山特色</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-landmark fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">历史文化</h5>
+                            <p class="card-text">昆山拥有众多历史古迹和文化遗产，周庄古镇、锦溪古镇等展现了江南水乡的独特魅力。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-utensils fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">特色美食</h5>
+                            <p class="card-text">阳澄湖大闸蟹举世闻名，昆山奥灶面、昆式面、周庄万三蹄等美食令人垂涎。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-industry fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">经济发展</h5>
+                            <p class="card-text">昆山是中国县级市经济发展的标杆，拥有发达的制造业和现代服务业，是长三角地区的重要经济中心。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>关于昆山之美</h5>
+                    <p>本网站致力于展示江苏省昆山市的美丽风景、历史文化和特色美食，让更多人了解和爱上这座城市。</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>快速链接</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">首页</a></li>
+                        <li><a href="landmarks.html" class="text-white">地标建筑</a></li>
+                        <li><a href="food.html" class="text-white">特色美食</a></li>
+                        <li><a href="feedback.html" class="text-white">留言</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>联系我们</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope me-2"></i> contact@kunshan-beauty.com</li>
+                        <li><i class="fas fa-phone me-2"></i> (0512) 5xxxx-xxxx</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> 昆山市，江苏省</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 昆山之美. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
